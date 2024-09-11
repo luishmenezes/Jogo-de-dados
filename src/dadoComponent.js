@@ -36,6 +36,8 @@ const percentualVitorias = dadosRodados === 0 ? 0: ((vitorias/dadosRodados)* 100
 return (
     <div style={{textAlign:"center"}}>
         <h1>Jogo dos Dados</h1>
+        <p>Some 7 ou 11 com os dados para vencer!</p>
+        <p>Boa sorte!</p>
         <div>
             <p>Dado 1: {dado1}</p>
             <p>Dado 2: {dado2}</p>
