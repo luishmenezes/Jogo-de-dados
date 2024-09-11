@@ -48,7 +48,7 @@ return (
         <h2>Numero de dados que você rodou: {dadosRodados}</h2>
         <h2>Numero de vezes que você ganhou: {vitorias}</h2>
         <h2>Numero de vezes que você perdeu: {derrotas}</h2>
-        <h2>Percentual de vitórias sobre os dados jogados: {percentualVitorias}</h2>
+        <h2>Percentual de vitórias sobre os dados jogados: {percentualVitorias}%</h2>
     </div>
 );
 
