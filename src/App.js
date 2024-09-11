@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import {useState} from 'react';
 import './App.css';
+import jogoDados from './dadoComponent.js';
+import React from 'react';
+import DadoComponent from './dadoComponent.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DadoComponent></DadoComponent>
     </div>
   );
 }
 
 export default App;
+
+
+// Math.floor(Math.random() * 6) + 1
+// const d1 e d2
