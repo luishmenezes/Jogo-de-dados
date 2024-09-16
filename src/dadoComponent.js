@@ -41,7 +41,7 @@ return (
         <div>
             <p>Dado 1: {dado1}</p>
             <p>Dado 2: {dado2}</p>
-            <p>Soma: {soma}</p>
+            <p>Soma: {dado1 + dado2}</p>
         </div>
 
         <button onClick={rolarDados}>Clique aqui para jogar </button>
